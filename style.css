@@ -17,11 +17,18 @@ body {
   z-index: 1;
 }
 
-#navegacao ul li {
+#container-header {
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+  margin-top: 70px;
+}
+
+#container-header ul li {
   display: inline-block;
   padding: 5px;
   border: 2px solid;
-  margin: 10px;
+  margin: 6px;
   text-align: center;
   list-style: none;
   text-transform: uppercase;
@@ -30,27 +37,23 @@ body {
   border-right-width: 10px;
   border-radius: 10px;
   box-shadow: 3px 5px 10px black;
-  z-index: 2;
 }
 
-#navegacao ul li:hover {
+#container-header ul li:hover {
   color: rgb(155, 192, 99);
 }
 
-.test {
-  position: absolute;
-  left: 520px;
-  top: 80px;
+#container-header ul li a {
+  color: black;
 }
 
 #minha_foto {
   display: block;
-  margin-top: 170px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 50px;
   border: 10px solid green;
-  
 }
 
 #licoes_aprendidas {
@@ -60,6 +63,31 @@ body {
   padding: 20px;
   margin-left: 30px;
   line-height: 20px;
+  background-color: antiquewhite;
+}
+
+#licoes_aprendidas li {
+  padding: 3px;
+  text-decoration: underline;
+}
+
+table caption,
+b,
+td,
+thead {
+  background-color: antiquewhite;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  border: 2px solid;
+  padding: 10px;
   background-color: antiquewhite;
 }
 
@@ -74,17 +102,9 @@ body {
   background-color: antiquewhite;
 }
 
-table {
-  border: 2px solid;
-  position: relative;
-  bottom: 430px;
-  left: 650px;
-  background-color: antiquewhite;
-}
-
-td {
-  border: 2px solid;
-  padding: 10px;
+#licoes_a_aprender li {
+  padding: 3px;
+  text-decoration: underline;
 }
 
 h2 {
@@ -93,36 +113,36 @@ h2 {
 }
 
 .lado-esquerdo {
-  text-justify: auto;
-  float: left;
+  display: flex;
+  justify-content: flex-start;
   max-width: 50%;
-  clear: both;
+  text-justify: auto;
   font-size: 23px;
   background-color: antiquewhite;
 }
 
 .lado-direito {
-  position: relative;
-  bottom: 40px;
+  display: flex;
+  margin-left: auto;
+  width: 50%;
   font-size: 23px;
-  float: right;
-  max-width: 50%;
   background-color: antiquewhite;
 }
 
-#h33 {
-  position: relative;
-  text-align: center;
-  bottom: 40px;
+.title-right {
+  margin-left: auto;
 }
 
 .box-contact {
-  margin-top: 200px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 80px;
+}
+
+.box-contact article {
   border: 2px solid;
-  margin-left: 10px;
   padding: 10px;
-  max-width: 50%;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   background-color: antiquewhite;
 }
 
@@ -144,4 +164,3 @@ footer {
   border-radius: 0 0 15px 15px;
   padding: 1px;
 }
-
