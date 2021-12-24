@@ -1,0 +1,147 @@
+body {
+  background-color: rgb(253, 251, 251);
+  display: flow-root;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 2px;
+}
+
+#cabecalho {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  border: 2px solid black;
+  background-color: rgb(113, 238, 63);
+  text-align: center;
+  padding: 1px;
+  z-index: 1;
+}
+
+#navegacao ul li {
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid;
+  margin: 10px;
+  text-align: center;
+  list-style: none;
+  text-transform: uppercase;
+  background-color: antiquewhite;
+  border-top-width: 10px;
+  border-right-width: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 10px black;
+  z-index: 2;
+}
+
+#navegacao ul li:hover {
+  color: rgb(155, 192, 99);
+}
+
+.test {
+  position: absolute;
+  left: 520px;
+  top: 80px;
+}
+
+#minha_foto {
+  display: block;
+  margin-top: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  border: 10px solid green;
+  
+}
+
+#licoes_aprendidas {
+  list-style: none;
+  border: 2px solid;
+  max-width: 20%;
+  padding: 20px;
+  margin-left: 30px;
+  line-height: 20px;
+  background-color: antiquewhite;
+}
+
+#licoes_a_aprender {
+  list-style: none;
+  border: 2px solid;
+  max-width: 20%;
+  margin-left: auto;
+  padding: 20px;
+  margin-right: 30px;
+  line-height: 20px;
+  background-color: antiquewhite;
+}
+
+table {
+  border: 2px solid;
+  position: relative;
+  bottom: 430px;
+  left: 650px;
+  background-color: antiquewhite;
+}
+
+td {
+  border: 2px solid;
+  padding: 10px;
+}
+
+h2 {
+  margin-left: 100px;
+  max-width: 30%;
+}
+
+.lado-esquerdo {
+  text-justify: auto;
+  float: left;
+  max-width: 50%;
+  clear: both;
+  font-size: 23px;
+  background-color: antiquewhite;
+}
+
+.lado-direito {
+  position: relative;
+  bottom: 40px;
+  font-size: 23px;
+  float: right;
+  max-width: 50%;
+  background-color: antiquewhite;
+}
+
+#h33 {
+  position: relative;
+  text-align: center;
+  bottom: 40px;
+}
+
+.box-contact {
+  margin-top: 200px;
+  border: 2px solid;
+  margin-left: 10px;
+  padding: 10px;
+  max-width: 50%;
+  margin-bottom: 100px;
+  background-color: antiquewhite;
+}
+
+.box-trybe {
+  border: 2px solid;
+  max-width: 50%;
+  padding: 30px;
+  margin-left: auto;
+  background-color: antiquewhite;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 0 0 15px 15px;
+  padding: 1px;
+}
+
